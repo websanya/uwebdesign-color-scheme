@@ -71,7 +71,7 @@ input[type=radio]:checked:before {
 .wp-core-ui .wp-ui-text-highlight {
   color: #c46858; }
 .wp-core-ui .wp-ui-notification {
-  color: #2a3333;
+  color: #f6f6f6;
   background-color: #3b97a7; }
 .wp-core-ui .wp-ui-text-notification {
   color: #3b97a7; }
@@ -195,7 +195,7 @@ ul#adminmenu > li.current > a.current:after {
 /* Admin Menu: bubble */
 #adminmenu .awaiting-mod,
 #adminmenu .update-plugins {
-  color: #2a3333;
+  color: #f6f6f6;
   background: #3b97a7; }
 
 #adminmenu li.current a .awaiting-mod,

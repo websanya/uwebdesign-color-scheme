@@ -3,7 +3,7 @@
  * Plugin Name: uWebDesign Color Scheme
  * Plugin URI: https://github.com/websanya/uwd-color-scheme
  * Description: A micro-plugin to add uWebDesign color scheme to WordPress.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Alexander Goncharov
  * Author URI: http://websanya.ru
  * License: GPL-2.0+

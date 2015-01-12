@@ -38,6 +38,9 @@ This plugin supports the [GitHub Updater](https://github.com/afragen/github-upda
 
 ## Changelog
 
+### 1.0.1
+* Fixed text color for notification bubble.
+
 ### 1.0.0
 * Initial release
 
