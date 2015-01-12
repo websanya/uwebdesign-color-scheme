@@ -8,7 +8,7 @@
  * Author URI: http://websanya.ru
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * GitHub Plugin URI: https://github.com/websanya/uwd-color-scheme
+ * GitHub Plugin URI: websanya/uwd-color-scheme
  * GitHub Branch: master
  */
  
