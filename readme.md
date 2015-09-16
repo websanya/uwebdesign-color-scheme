@@ -1,42 +1,41 @@
 # uWebDesign Color Scheme
 
-WordPress micro-plugin that adds uWebDesign branded color scheme to admin area.
+Микро-плагин для WordPress, который добавляет брендовую цветовую схему uWebDesign в админку.
 
-## Description
+## Описание
 
-This plugin adds a new color scheme to your profile in `Users -> Your Profile` screen.
+Этот плагин добавляет новую цветовую схему в ваш профиль, в раздел `Пользователи -> Ваш профиль`.
 
-## Installation
+## Установка
 
-### Upload
+### Загрузка через админку
 
-1. Download the latest tagged archive (choose the "zip" option).
-2. Go to the __Plugins -> Add New__ screen and click the __Upload__ tab.
-3. Upload the zipped archive directly.
-4. Go to the Plugins screen and click __Activate__.
+1. Скачайте последний архив (выберите вариант "zip").
+2. Переходите в раздел __Плагины -> Добавить новый__ и жмите на кнопку __Загрузить плагин__.
+3. Загрузить архив на сайт.
+4. Переходите в раздел __Плагины__ и жмите __Активировать__.
 
-### Manual
+### Ручная установка
 
-1. Download the latest tagged archive (choose the "zip" option).
-2. Unzip the archive.
-3. Copy the folder to your `/wp-content/plugins/` directory.
-4. Go to the Plugins screen and click __Activate__.
-
-Check out the Codex for more information about [installing plugins manually](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+1. Скачайте последний архив (выберите вариант "zip").
+2. Распакуйте архив.
+3. Скопируйте директорию с плагином в `/wp-content/plugins`.
+4. Переходите в раздел __Плагины__ и жмите __Активировать__.
 
 ### Git
 
-Using git, browse to your `/wp-content/plugins/` directory and clone this repository:
+1. Перейдите в директорию `/wp-content/plugins` вашего сайта и клонируйте туда репозиторий: `git clone git@github.com:websanya/uwd-color-scheme`.
+2. Переходите в раздел __Плагины__ и жмите __Активировать__.
 
-`git clone git@github.com:websanya/uwd-color-scheme`
+## Обновления
 
-Then go to your Plugins screen and click __Activate__.
+Этот плагин поддерживается плагином [GitHub Updater](https://github.com/afragen/github-updater), если вы его установите, то `websanya/uwd-color-scheme` будет обновляться через него.
 
-## Updates
+## История изменений
 
-This plugin supports the [GitHub Updater](https://github.com/afragen/github-updater) plugin, so if you install that, this plugin becomes automatically updateable direct from GitHub.
-
-## Changelog
+### 2.0.0
+* Обновил цвет в соответствии с новой цветовой схемой.
+* Перевел readme.md на русский яызк.
 
 ### 1.0.1
 * Fixed text color for notification bubble.
@@ -46,5 +45,5 @@ This plugin supports the [GitHub Updater](https://github.com/afragen/github-upda
 
 ## Credits
 
-Built by [Alexander Goncharov](http://websanya.ru/)  
-Copyright 2015 [uWebDesign](http://uwebdesign.ru/)
+Автор: [Alexander Goncharov](https://websanya.ru/)
+Копирайт 2015 [uWebDesign](https://uwebdesign.ru/)

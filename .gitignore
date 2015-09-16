@@ -1,1 +1,6 @@
 .sass-cache
+*.xml
+
+.idea/.name
+
+*.iml
