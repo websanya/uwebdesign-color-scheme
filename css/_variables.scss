@@ -3,23 +3,19 @@
 
 // core variables
 
-$text-color: #2a3333 !default;
-$base-color: #f6f6f6 !default;
-$icon-color: #2a3333 !default;
-$highlight-color: #c46858 !default;
+$text-color: #2e2315 !default;
+$base-color: #ede1d3 !default;
+$icon-color: #2e2315 !default;
+$highlight-color: #35827f !default;
 $notification-color: invert($highlight-color) !default;
-
-/*
-$temp: lighten(#c46858, 20%);
-@warn rgba($temp,.5);
-*/
+$delete-color: #955152 !default;
 
 
 // global
 
-$body-background: #f1f1f1 !default;
+$body-background: #ede1d3 !default;
 
-$link: #c46858 !default;
+$link: #35827f !default;
 $link-focus: lighten( $link, 10% ) !default;
 
 $button-color: $highlight-color !default;
@@ -54,8 +50,8 @@ $menu-bubble-current-background: $menu-submenu-background !default;
 
 $menu-collapse-text: $menu-icon !default;
 $menu-collapse-icon: $menu-icon !default;
-$menu-collapse-focus-text: $text-color !default;
-$menu-collapse-focus-icon: $menu-highlight-icon !default;
+$menu-collapse-focus-text: $menu-highlight-background !default;
+$menu-collapse-focus-icon: $menu-highlight-background !default;
 
 $adminbar-avatar-frame: lighten( $menu-background, 7% ) !default;
 $adminbar-input-background: lighten( $menu-background, 7% ) !default;

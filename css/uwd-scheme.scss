@@ -8,6 +8,10 @@ html {
 
 /* Dashicons */
 
+a:hover .dashicons, .dashicons-before::before {
+	-webkit-transition: color .05s ease-in 0 !important;
+	transition: color .05s ease-in 0 !important;
+}
 .dashicons, .dashicons-before::before {
 	-webkit-transition: color .05s ease-in 0 !important;
 	transition: color .05s ease-in 0 !important;
@@ -284,14 +288,14 @@ ul#adminmenu > li.current > a.current:after {
 #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
 #wpadminbar-nojs .ab-top-menu > li.menupop:hover > .ab-item,
 #wpadminbar .ab-top-menu > li.menupop.hover > .ab-item {
-	color: $menu-submenu-focus-text;
-	background: $menu-submenu-background;
+	color: $menu-submenu-focus-text !important;
+	background: $menu-submenu-background !important;
 }
 
 #wpadminbar > #wp-toolbar li:hover span.ab-label,
 #wpadminbar > #wp-toolbar li.hover span.ab-label,
 #wpadminbar > #wp-toolbar a:focus span.ab-label {
-	color: $menu-submenu-focus-text;
+	color: $menu-submenu-focus-text !important;
 }
 
 #wpadminbar li:hover .ab-icon:before,
@@ -529,4 +533,33 @@ div#wp-responsive-toggle a:before {
 
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
 	background: $menu-submenu-background;
+}
+
+/* WordPress Meta Buttons: "Add New" etc. */
+.wrap .add-new-h2:hover,
+.wrap .page-title-action:hover {
+    background: $highlight-color;
+}
+
+/* Border for plugins */
+.plugin-update-tr.active td,
+.plugins .active th.check-column {
+    border-left: 4px solid $highlight-color;
+}
+
+/* Delete links */
+#all-plugins-table .plugins a.delete,
+#media-items a.delete,
+#media-items a.delete-permanently,
+#nav-menu-footer .menu-delete,
+#search-plugins-table .plugins a.delete,
+.plugins a.delete,
+.row-actions span.delete a,
+.row-actions span.spam a,
+.row-actions span.trash a,
+.submitbox .submitdelete {
+  color: $delete-color;
+  &:hover {
+    color: saturate( $delete-color, 50% );
+  }
 }
