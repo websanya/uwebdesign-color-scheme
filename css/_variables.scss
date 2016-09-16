@@ -1,26 +1,25 @@
 // assign default value to all undefined variables
 
-
 // core variables
 
-$text-color: #2e2315 !default;
-$base-color: #ede1d3 !default;
-$icon-color: #2e2315 !default;
-$highlight-color: #35827f !default;
-$notification-color: invert($highlight-color) !default;
-$delete-color: #955152 !default;
+//'#0e111c', '#ffffff', '#f1dd7d', '#c13223'
 
+$text-color: #ffffff !default;
+$base-color: #103154 !default;
+$icon-color: #ffffff !default;
+$highlight-color: darken(#cb9e69, 10%) !default;
+$notification-color: #f1dd7d !default;
+$delete-color: #c13223 !default;
 
 // global
 
-$body-background: #ede1d3 !default;
+$body-background: darken(#ffffff, 10%) !default;
 
-$link: #35827f !default;
-$link-focus: lighten( $link, 10% ) !default;
+$link: darken(#cb9e69, 15%) !default;
+$link-focus: lighten($link, 10%) !default;
 
 $button-color: $highlight-color !default;
 $form-checked: $highlight-color !default;
-
 
 // admin menu & admin-bar
 
@@ -28,17 +27,17 @@ $menu-text: $text-color !default;
 $menu-icon: $icon-color !default;
 $menu-background: $base-color !default;
 
-$menu-highlight-text: $base-color !default;
-$menu-highlight-icon: $base-color !default;
+$menu-highlight-text: $text-color !default;
+$menu-highlight-icon: $text-color !default;
 $menu-highlight-background: $highlight-color !default;
 
 $menu-current-text: $menu-highlight-text !default;
 $menu-current-icon: $menu-highlight-icon !default;
 $menu-current-background: $menu-highlight-background !default;
 
-$menu-submenu-text: mix( $base-color, $text-color, 30% ) !default;
-$menu-submenu-background: darken( $base-color, 7% ) !default;
-$menu-submenu-background-alt: desaturate( lighten( $menu-background, 7% ), 7% ) !default;
+$menu-submenu-text: mix($base-color, $text-color, 30%) !default;
+$menu-submenu-background: darken($base-color, 7%) !default;
+$menu-submenu-background-alt: desaturate(lighten($menu-background, 7%), 7%) !default;
 
 $menu-submenu-focus-text: $highlight-color !default;
 $menu-submenu-current-text: $text-color !default;
@@ -53,7 +52,7 @@ $menu-collapse-icon: $menu-icon !default;
 $menu-collapse-focus-text: $menu-highlight-background !default;
 $menu-collapse-focus-icon: $menu-highlight-background !default;
 
-$adminbar-avatar-frame: lighten( $menu-background, 7% ) !default;
-$adminbar-input-background: lighten( $menu-background, 7% ) !default;
+$adminbar-avatar-frame: lighten($menu-background, 7%) !default;
+$adminbar-input-background: lighten($menu-background, 7%) !default;
 
-$menu-customizer-text: mix( $base-color, $text-color, 40% ) !default;
+$menu-customizer-text: mix($base-color, $text-color, 40%) !default;
