@@ -3,7 +3,7 @@
  * Plugin Name: uWebDesign Color Scheme
  * Plugin URI: https://github.com/websanya/uwebdesign-color-scheme
  * Description: Микроплагин с цветовой схемой (WordPress админка) для комьюнити сайта uWebDesign.
- * Version: 3.0.0
+ * Version: 3.0.1
  * Author: Alexander Goncharov
  * Author URI: https://websanya.ru
  * GitHub Plugin URI: https://github.com/websanya/uwebdesign-color-scheme
@@ -19,7 +19,7 @@ function add_custom_admin_themes() {
 		'uwd-scheme',
 		__( 'uWebDesign' ),
 		PATH . "/css/uwd-scheme.css",
-		array( '#0e111c', '#ffffff', '#f1dd7d', '#c13223' )
+		array( '#103154', '#ffffff', '#be8643', '#f1dd7d' )
 	);
 }
 
